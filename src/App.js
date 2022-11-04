@@ -1,6 +1,8 @@
 import "./App.css";
 import Header from "./components/Header";
 import profilePhoto from "./img/profile-photo.png";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function App() {
   return (
@@ -77,11 +79,11 @@ function App() {
           christianyip92@gmail
         </a>
         <a href="https://www.linkedin.com/in/c-yip" className="footer__link">
-          <img src="" alt="LinkedIn icon" />
+          <LinkedInIcon />
           LinkedIn
         </a>
         <a href="https://github.com/c-yip" className="footer__link">
-          <img src="" alt="GitHub icon" />
+          <GitHubIcon />
           GitHub
         </a>
       </footer>
