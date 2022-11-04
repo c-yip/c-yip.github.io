@@ -1,11 +1,16 @@
+import logo from "../img/logo.png";
+import MenuIcon from "@mui/icons-material/Menu";
+
 function Header() {
   return (
     <header>
       <div className="logo">
-        <img src="" alt="" />
+        <img src={logo} alt="" />
       </div>
       <button className="nav-toggle" aria-label="toggle navigation"></button>
-      <span className="hamburger"></span>
+      <span className="hamburger">
+        <MenuIcon />
+      </span>
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
