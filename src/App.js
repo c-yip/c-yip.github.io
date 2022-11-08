@@ -33,7 +33,7 @@ function App() {
         <h2 className="section__title section__title--my-skills">
           My skill-set
         </h2>
-
+        <br />
         <div className="skill-container">
           <div className="skill zoom">
             <img src={htmlIcon} alt="HTML5 icon" className="skill__img" />
@@ -79,6 +79,7 @@ function App() {
             <h3 className="skill-text">Jest</h3>
           </div>
         </div>
+        <br />
 
         <a href="#projects" className="btn">
           My projects

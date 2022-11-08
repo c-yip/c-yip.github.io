@@ -158,6 +158,12 @@ nav {
   align-items: center;
 }
 
+@media (max-width: 800px) {
+  .skill-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .skill {
   display: flex;
   flex-direction: column;
