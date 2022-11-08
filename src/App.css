@@ -68,6 +68,33 @@ section {
   padding: 5em 2em;
 }
 
+:focus {
+  outline: 3px solid var(--clr-accent);
+  outline-offset: 3px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  background: var(--clr-accent);
+  color: var(--clr-dark);
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--fw-bold);
+  transition: transform 200ms ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.light {
+  color: var(--clr-light);
+}
+
 .section__title {
   margin-bottom: 0.25em;
 }
@@ -149,6 +176,23 @@ nav {
 }
 
 /* skills */
+.my-skills {
+  background-image: url("./img/background-image-skills.jpg");
+  background-color: var(--clr-dark);
+  background-size: cover;
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.section__title--my-skills::after {
+  content: "";
+  display: block;
+  width: 5em;
+  height: 1px;
+  margin: 0.5em auto 1em;
+  background-color: var(--clr-light);
+  opacity: 0.75;
+}
 
 .skill-container {
   display: grid;
@@ -186,6 +230,7 @@ nav {
 
 .skill-text {
   opacity: 0;
+  font-size: 1.2rem;
 }
 
 .skill:hover .skill-text {

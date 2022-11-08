@@ -9,7 +9,7 @@ import jsIcon from "./img/js-icon.svg";
 import bootstrapIcon from "./img/bootstrap-icon.svg";
 import reactIcon from "./img/react-icon.svg";
 import gitIcon from "./img/git-icon.svg";
-import githubIcon from "./img/github-icon.svg";
+import githubIcon from "./img/GitHub-Mark-Light-120px-plus.png";
 import jestIcon from "./img/jest-icon.svg";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
