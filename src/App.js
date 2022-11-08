@@ -1,4 +1,5 @@
 import "./App.css";
+import React, { useState } from "react";
 import Header from "./components/Header";
 
 import profilePhoto from "./img/profile-photo.png";
@@ -34,48 +35,48 @@ function App() {
         </h2>
 
         <div className="skill-container">
-          <div className="skill">
+          <div className="skill zoom">
             <img src={htmlIcon} alt="HTML5 icon" className="skill__img" />
-            <h3>HTML5</h3>
+            <h3 className="skill-text">HTML5</h3>
           </div>
 
-          <div className="skill">
+          <div className="skill zoom">
             <img src={cssIcon} alt="CSS3 icon" className="skill__img" />
-            <h3>CSS3</h3>
+            <h3 className="skill-text">CSS3</h3>
           </div>
 
-          <div className="skill">
+          <div className="skill zoom">
             <img src={jsIcon} alt="JavaScript icon" className="skill__img" />
-            <h3>JavaScript</h3>
+            <h3 className="skill-text">JavaScript</h3>
           </div>
 
-          <div className="skill">
+          <div className="skill zoom">
             <img src={reactIcon} alt="React icon" className="skill__img" />
-            <h3>React</h3>
+            <h3 className="skill-text">React</h3>
           </div>
 
-          <div className="skill">
+          <div className="skill zoom">
             <img
               src={bootstrapIcon}
               alt="Bootstrap icon"
               className="skill__img"
             />
-            <h3>Bootstrap</h3>
+            <h3 className="skill-text">Bootstrap</h3>
           </div>
 
-          <div className="skill">
+          <div className="skill zoom">
             <img src={gitIcon} alt="Git icon" className="skill__img" />
-            <h3>Git</h3>
+            <h3 className="skill-text">Git</h3>
           </div>
 
-          <div className="skill">
+          <div className="skill zoom">
             <img src={githubIcon} alt="GitHub icon" className="skill__img" />
-            <h3>GitHub</h3>
+            <h3 className="skill-text">GitHub</h3>
           </div>
 
-          <div className="skill">
+          <div className="skill zoom">
             <img src={jestIcon} alt="Jest icon" className="skill__img" />
-            <h3>Jest</h3>
+            <h3 className="skill-text">Jest</h3>
           </div>
         </div>
 

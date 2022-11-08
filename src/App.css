@@ -168,3 +168,20 @@ nav {
   width: 100px;
   height: 100px;
 }
+
+.zoom {
+  transition: transform 0.2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5);
+}
+
+.skill-text {
+  visibility: hidden;
+}
+
+.skill:hover .skill-text {
+  visibility: visible;
+}
