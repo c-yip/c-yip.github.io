@@ -131,6 +131,11 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--clr-light);
 }
 
 .logo {
