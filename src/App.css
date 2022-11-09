@@ -180,6 +180,16 @@ header {
   z-index: 100;
 }
 
+/* nav toggled */
+
+.nav-open .nav {
+  transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+  position: fixed;
+}
+
 .hamburger {
   display: block;
   position: relative;

@@ -1,6 +1,7 @@
 import "./App.css";
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import Header from "./components/Header";
+import { Context } from "./Context";
 
 import profilePhoto from "./img/profile-photo.png";
 import htmlIcon from "./img/html-icon.svg";
@@ -24,8 +25,10 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 function App() {
+  const { navOpenClass } = useContext(Context);
+
   return (
-    <div className="App">
+    <div className={`App + ${navOpenClass}`}>
       <Header />
       <section className="intro">
         <h1 className="section__title section__title--intro">
