@@ -15,7 +15,8 @@ function App() {
   return (
     <div className={`App ${navOpenClass}`}>
       <Header />
-      <Intro></Intro>
+
+      <Intro />
 
       <SkillsSection />
 
