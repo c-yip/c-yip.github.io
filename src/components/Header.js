@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { Context } from "../Context";
 
 function Header() {
-  const { handleNavOpen } = useContext(Context);
+  const { navOpen, handleNavOpen } = useContext(Context);
 
   return (
     <header>
@@ -12,9 +12,9 @@ function Header() {
       </div>
 
       <button
-        className="nav-toggle"
+        className={navOpen ? "nav-toggle nav-open" : "nav-toggle"}
         aria-label="toggle navigation"
-        onClick={() => handleNavOpen()}
+        onClick={handleNavOpen}
       >
         <span className="hamburger"></span>
       </button>
@@ -22,22 +22,22 @@ function Header() {
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="" className="nav__link">
+            <a href="#home" className="nav__link" onClick={handleNavOpen}>
               Home
             </a>
           </li>
           <li className="nav__item">
-            <a href="" className="nav__link">
+            <a href="#skills" className="nav__link" onClick={handleNavOpen}>
               Skills
             </a>
           </li>
           <li className="nav__item">
-            <a href="" className="nav__link">
+            <a href="#about" className="nav__link" onClick={handleNavOpen}>
               About me
             </a>
           </li>
           <li className="nav__item">
-            <a href="" className="nav__link">
+            <a href="#projects" className="nav__link" onClick={handleNavOpen}>
               Projects
             </a>
           </li>

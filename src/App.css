@@ -177,7 +177,7 @@ header {
   position: absolute;
   right: 1em;
   top: 1em;
-  z-index: 100;
+  z-index: 1000;
 }
 
 /* nav toggled */
@@ -190,6 +190,20 @@ header {
   position: fixed;
 }
 
+.nav-open .hamburger {
+  transform: rotate(0.625turn);
+}
+
+.nav-open .hamburger::before {
+  transform: rotate(90deg) translateX(-6px);
+}
+
+.nav-open .hamburger::after {
+  opacity: 0;
+}
+
+/* hamburger btn */
+
 .hamburger {
   display: block;
   position: relative;
@@ -198,7 +212,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-dark);
+  background: var(--clr-accent);
   width: 2em;
   height: 3px;
   border-radius: 1em;

@@ -28,9 +28,9 @@ function App() {
   const { navOpenClass } = useContext(Context);
 
   return (
-    <div className={`App + ${navOpenClass}`}>
+    <div className={`App ${navOpenClass}`}>
       <Header />
-      <section className="intro">
+      <section className="intro" id="home">
         <h1 className="section__title section__title--intro">
           Hi, I am <strong>Christian Yip</strong>
         </h1>
@@ -40,7 +40,7 @@ function App() {
         <img src={profilePhoto} alt="" className="intro__img" />
       </section>
 
-      <section className="my-skills">
+      <section className="my-skills" id="skills">
         <h2 className="section__title section__title--my-skills">
           My skill-set
         </h2>
@@ -97,7 +97,7 @@ function App() {
         </a>
       </section>
 
-      <section className="about-me">
+      <section className="about-me" id="about">
         <h2 className="section__title section__title--about-me">About me</h2>
         <p className="section__subtitle section__subtitle--about-me">
           Front-end developer & attorney based out of SoCal
@@ -130,7 +130,7 @@ function App() {
         <h2 className="section__title section__title--my-projects">
           My projects
         </h2>
-        <p class="section__subtitle section__subtitle--projects">
+        <p className="section__subtitle section__subtitle--projects">
           A selection of my range of work
         </p>
 
