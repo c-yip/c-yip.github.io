@@ -200,18 +200,27 @@ function App() {
         </div>
       </section>
 
-      <footer>
-        <a href="mailto:christianyip92@gmail.com" className="footer__link">
-          christianyip92@gmail
-        </a>
-        <a href="https://www.linkedin.com/in/c-yip" className="footer__link">
-          <LinkedInIcon />
-          LinkedIn
-        </a>
-        <a href="https://github.com/c-yip" className="footer__link">
-          <GitHubIcon />
-          GitHub
-        </a>
+      <footer className="footer">
+        <ul className="footer-list">
+          <li className="footer-list__item">
+            <a href="mailto:christianyip92@gmail.com" className="footer__link">
+              christianyip92@gmail
+            </a>
+          </li>
+          <li className="footer-list__item">
+            <a
+              href="https://www.linkedin.com/in/c-yip"
+              className="footer__link"
+            >
+              <LinkedInIcon fontSize="large" />
+            </a>
+          </li>
+          <li className="footer-list__item">
+            <a href="https://github.com/c-yip" className="footer__link">
+              <GitHubIcon fontSize="large" />
+            </a>
+          </li>
+        </ul>
       </footer>
     </div>
   );
