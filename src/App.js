@@ -11,6 +11,7 @@ import reactIcon from "./img/react-icon.svg";
 import gitIcon from "./img/git-icon.svg";
 import githubIcon from "./img/GitHub-Mark-Light-120px-plus.png";
 import jestIcon from "./img/jest-icon.svg";
+import aboutPhoto from "./img/suit.jpg";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -89,23 +90,37 @@ function App() {
       <section className="about-me">
         <h2 className="section__title section__title--about-me">About me</h2>
         <p className="section__subtitle section__subtitle--about-me">
-          Earlier this year, I decided to switch my focus in life from advising
-          and advocating for others as an attorney to building software. I am a
-          frontend developer with a passion for building dynamic websites and
-          web applications and a hunger to learn and improve. Through my years
-          of working in a fast-paced, stressful, and demanding environment, I
-          have learned how to self-manage, work proactively, and self-teach to
-          keep up with the ever-changing legal environment. My goal is to apply
-          the analytical, problem-solving, and communication skills I developed
-          as an attorney to a frontend developer position to connect people to
-          technology in a seamless and impactful fashion.{" "}
+          Front-end developer & attorney based out of SoCal
         </p>
+
+        <div className="about-me__body">
+          <p>
+            Earlier this year, I decided to switch my focus in life from
+            advising and advocating for others as an attorney to building
+            software. I am a front-end developer with a passion for building
+            dynamic websites and web applications and a hunger to learn and
+            improve.
+          </p>
+
+          <p>
+            Through my years of working in a fast-paced, stressful, and
+            demanding environment, I have learned how to self-manage, work
+            proactively, and self-teach to keep up with the ever-changing legal
+            environment. My goal is to apply the analytical, problem-solving,
+            and communication skills I developed as an attorney to a front-end
+            developer position to connect people to technology in a seamless and
+            impactful fashion.{" "}
+          </p>
+        </div>
+
+        <img src={aboutPhoto} alt="me in suit" className="about-me__img" />
       </section>
 
       <section className="my-projects" id="projects">
         <h2 className="section__title section__title--my-projects">
           My projects
         </h2>
+        <p class="section__subtitle">A selection of my range of work</p>
         <div className="portfolio">
           <a href="" className="portfolio__item">
             <img src="" alt="" className="portfolio__img" />

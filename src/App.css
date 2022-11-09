@@ -114,7 +114,7 @@ section {
 }
 
 .section__subtitle--intro,
-.section__subtitle--about {
+.section__subtitle--about-me {
   background-color: var(--clr-accent);
   padding: 0.25em 1em;
   font-family: var(--ff-secondary);
@@ -142,6 +142,10 @@ nav {
 
 .intro__img {
   box-shadow: var(--box-shadow);
+}
+
+.section__subtitle--intro {
+  display: inline-block;
 }
 
 @media (min-width: 600px) {
@@ -236,4 +240,46 @@ nav {
 .skill:hover .skill-text {
   opacity: 1;
   transition: opacity 0.5s linear;
+}
+
+/* about me */
+.about-me {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.about-me__img {
+  box-shadow: var(--box-shadow);
+}
+
+@media (min-width: 600px) {
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    grid-template-areas:
+      "title img"
+      "subtitle img"
+      "text img";
+    grid-column-gap: 2em;
+  }
+
+  .section__title--about-me {
+    grid-area: title;
+  }
+
+  .section__subtitle--about-me {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    position: relative;
+    left: -1em;
+    width: calc(100% + 2em);
+    padding-left: 1em;
+    padding-right: calc(200px + 4em);
+  }
+
+  .about-me__img {
+    grid-area: img;
+    position: relative;
+    z-index: 2;
+  }
 }
