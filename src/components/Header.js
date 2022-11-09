@@ -7,6 +7,13 @@ function Header() {
   const { navOpen, handleNavOpen, toggleDarkMode, darkModeBackground } =
     useContext(Context);
 
+  const hamburgerColorNavOpen =
+    darkModeBackground && !navOpen
+      ? "hamburger dark-mode-background"
+      : navOpen
+      ? "hamburger nav-open"
+      : "hamburger";
+
   return (
     <header className={`header ${darkModeBackground}`}>
       <div className="btn-container">
@@ -21,7 +28,7 @@ function Header() {
         aria-label="toggle navigation"
         onClick={handleNavOpen}
       >
-        <span className={navOpen ? "hamburger nav-open" : "hamburger"}></span>
+        <span className={hamburgerColorNavOpen}></span>
       </button>
 
       <nav className="nav">

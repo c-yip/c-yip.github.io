@@ -540,3 +540,9 @@ header {
 .my-projects.dark-mode-background {
   background-color: #1a1a1a !important;
 }
+
+.hamburger.dark-mode-background,
+.hamburger.dark-mode-background::before,
+.hamburger.dark-mode-background::after {
+  background: var(--clr-light);
+}
