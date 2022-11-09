@@ -16,7 +16,7 @@ function Header() {
         aria-label="toggle navigation"
         onClick={handleNavOpen}
       >
-        <span className="hamburger"></span>
+        <span className={navOpen ? "hamburger nav-open" : "hamburger"}></span>
       </button>
 
       <nav className="nav">

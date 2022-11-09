@@ -216,7 +216,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-accent);
+  background: var(--clr-dark);
   width: 2em;
   height: 3px;
   border-radius: 1em;
@@ -229,6 +229,12 @@ header {
   position: absolute;
   left: 0;
   right: 0;
+}
+
+.hamburger.nav-open,
+.hamburger.nav-open::before,
+.hamburger.nav-open::after {
+  background: var(--clr-light);
 }
 
 .hamburger::before {
