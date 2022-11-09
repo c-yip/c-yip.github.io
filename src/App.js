@@ -9,11 +9,17 @@ import { PortfolioSection } from "./components/PortfolioSection";
 import { Footer } from "./components/Footer";
 import { Intro } from "./components/Intro";
 
+import { ThemeProvider } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
+
 function App() {
-  const { navOpenClass } = useContext(Context);
+  const { navOpenClass, darkModeBackground, darkModeText } =
+    useContext(Context);
 
   return (
-    <div className={`App ${navOpenClass}`}>
+    <div
+      className={`App ${navOpenClass} ${darkModeBackground} ${darkModeText}`}
+    >
       <Header />
 
       <Intro />

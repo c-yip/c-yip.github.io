@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Context } from "../Context";
 import shoppingCartGif from "../img/portfolio-gifs/shopping-cart-short.gif";
 import cvGif from "../img/portfolio-gifs/cv.gif";
 import tvGif from "../img/portfolio-gifs/tv-trivia.gif";
@@ -8,8 +9,10 @@ import todoGif from "../img/portfolio-gifs/todo.gif";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
 export function PortfolioSection() {
+  const { darkModeBackground } = useContext(Context);
+
   return (
-    <section className="my-projects" id="projects">
+    <section className={`my-projects ${darkModeBackground}`} id={`projects`}>
       <h2 className="section__title section__title--my-projects">
         My projects
       </h2>

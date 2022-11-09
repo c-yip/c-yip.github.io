@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import aboutPhoto from "../img/suit.jpg";
+import { Context } from "../Context";
 
 export function AboutSection() {
+  const { darkModeText } = useContext(Context);
+
   return (
     <section className="about-me" id="about">
       <h2 className="section__title section__title--about-me">About me</h2>
-      <p className="section__subtitle section__subtitle--about-me">
+      <p
+        className={`section__subtitle section__subtitle--about-me ${darkModeText}`}
+      >
         Front-end developer & attorney based out of SoCal
       </p>
 

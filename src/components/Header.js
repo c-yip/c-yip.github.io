@@ -1,14 +1,19 @@
 import logo from "../img/logo.png";
 import React, { useContext } from "react";
 import { Context } from "../Context";
+import Switch from "@mui/material/Switch";
 
 function Header() {
-  const { navOpen, handleNavOpen } = useContext(Context);
+  const { navOpen, handleNavOpen, toggleDarkMode, darkModeBackground } =
+    useContext(Context);
 
   return (
-    <header>
-      <div className="logo">
-        <img src={logo} alt="" />
+    <header className={`header ${darkModeBackground}`}>
+      <div className="btn-container">
+        <div className="logo">
+          <img src={logo} alt="" />
+        </div>
+        <Switch defaultChecked color="warning" onClick={toggleDarkMode} />
       </div>
 
       <button
