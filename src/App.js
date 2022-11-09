@@ -18,6 +18,7 @@ import cvGif from "./img/portfolio-gifs/cv.gif";
 import tvGif from "./img/portfolio-gifs/tv-trivia.gif";
 import battleshipGif from "./img/portfolio-gifs/battleship.gif";
 import weatherGif from "./img/portfolio-gifs/weather-app.gif";
+import todoGif from "./img/portfolio-gifs/todo.gif";
 
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -131,24 +132,70 @@ function App() {
         </p>
 
         <div className="portfolio">
-          <a href="" className="portfolio__item">
-            <img src={shoppingCartGif} alt="" className="portfolio__img" />
+          <a
+            href="https://github.com/c-yip/shopping-cart"
+            className="portfolio__item"
+          >
+            <img
+              src={shoppingCartGif}
+              alt="gif of shopping cart app"
+              className="portfolio__img"
+            />
           </a>
 
-          <a href="" className="portfolio__item">
-            <img src={cvGif} alt="" className="portfolio__img" />
+          <a
+            href="https://github.com/c-yip/cv-application-generator"
+            className="portfolio__item"
+          >
+            <img
+              src={cvGif}
+              alt="gif of cv generator app"
+              className="portfolio__img"
+            />
           </a>
 
-          <a href="" className="portfolio__item">
-            <img src={tvGif} alt="" className="portfolio__img" />
+          <a
+            href="https://github.com/c-yip/tv-trivia"
+            className="portfolio__item"
+          >
+            <img
+              src={tvGif}
+              alt="gif of TV trivia app"
+              className="portfolio__img"
+            />
           </a>
 
-          <a href="" className="portfolio__item">
-            <img src={battleshipGif} alt="" className="portfolio__img" />
+          <a
+            href="https://github.com/c-yip/battleship"
+            className="portfolio__item"
+          >
+            <img
+              src={battleshipGif}
+              alt="gif of battleship app"
+              className="portfolio__img"
+            />
           </a>
 
-          <a href="" className="portfolio__item">
-            <img src={weatherGif} alt="" className="portfolio__img" />
+          <a
+            href="https://github.com/c-yip/weather-app"
+            className="portfolio__item"
+          >
+            <img
+              src={weatherGif}
+              alt="gif of weather app"
+              className="portfolio__img"
+            />
+          </a>
+
+          <a
+            href="https://github.com/c-yip/todo-list"
+            className="portfolio__item"
+          >
+            <img
+              src={todoGif}
+              alt="gif of todo list app"
+              className="portfolio__img"
+            />
           </a>
         </div>
       </section>
