@@ -13,6 +13,12 @@ import githubIcon from "./img/GitHub-Mark-Light-120px-plus.png";
 import jestIcon from "./img/jest-icon.svg";
 import aboutPhoto from "./img/suit.jpg";
 
+import shoppingCartGif from "./img/portfolio-gifs/shopping-cart-short.gif";
+import cvGif from "./img/portfolio-gifs/cv.gif";
+import tvGif from "./img/portfolio-gifs/tv-trivia.gif";
+import battleshipGif from "./img/portfolio-gifs/battleship.gif";
+import weatherGif from "./img/portfolio-gifs/weather-app.gif";
+
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -120,26 +126,29 @@ function App() {
         <h2 className="section__title section__title--my-projects">
           My projects
         </h2>
-        <p class="section__subtitle">A selection of my range of work</p>
+        <p class="section__subtitle section__subtitle--projects">
+          A selection of my range of work
+        </p>
+
         <div className="portfolio">
           <a href="" className="portfolio__item">
-            <img src="" alt="" className="portfolio__img" />
+            <img src={shoppingCartGif} alt="" className="portfolio__img" />
           </a>
 
           <a href="" className="portfolio__item">
-            <img src="" alt="" className="portfolio__img" />
+            <img src={cvGif} alt="" className="portfolio__img" />
           </a>
 
           <a href="" className="portfolio__item">
-            <img src="" alt="" className="portfolio__img" />
+            <img src={tvGif} alt="" className="portfolio__img" />
           </a>
 
           <a href="" className="portfolio__item">
-            <img src="" alt="" className="portfolio__img" />
+            <img src={battleshipGif} alt="" className="portfolio__img" />
           </a>
 
           <a href="" className="portfolio__item">
-            <img src="" alt="" className="portfolio__img" />
+            <img src={weatherGif} alt="" className="portfolio__img" />
           </a>
         </div>
       </section>
