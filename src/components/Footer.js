@@ -4,7 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 export function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <ul className="footer-list">
         <li className="footer-list__item">
           <a href="mailto:christianyip92@gmail.com" className="footer__link">

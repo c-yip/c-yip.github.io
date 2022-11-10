@@ -110,6 +110,11 @@ function Header() {
               Projects
             </a>
           </li>
+          <li className="nav__item">
+            <a href="#contact" className="nav__link" onClick={handleNavOpen}>
+              Contact
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
