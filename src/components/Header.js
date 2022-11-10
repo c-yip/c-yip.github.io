@@ -71,24 +71,25 @@ function Header() {
 
   return (
     <header className={`header ${darkModeBackground}`}>
+      <div className="logo">
+        <img src={logo} alt="" />
+      </div>
+
       <div className="btn-container">
-        <div className="logo">
-          <img src={logo} alt="" />
-        </div>
         <MaterialUISwitch
           sx={{ m: 1 }}
           onChange={handleChange}
           checked={checked}
         />
-      </div>
 
-      <button
-        className={navOpen ? "nav-toggle nav-open" : "nav-toggle"}
-        aria-label="toggle navigation"
-        onClick={handleNavOpen}
-      >
-        <span className={hamburgerColorNavOpen}></span>
-      </button>
+        <button
+          className={navOpen ? "nav-toggle nav-open" : "nav-toggle"}
+          aria-label="toggle navigation"
+          onClick={handleNavOpen}
+        >
+          <span className={hamburgerColorNavOpen}></span>
+        </button>
+      </div>
 
       <nav className="nav">
         <ul className="nav__list">

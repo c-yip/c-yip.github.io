@@ -189,7 +189,6 @@ header {
   background: transparent;
   border: 0;
   cursor: pointer;
-  position: absolute;
   right: 1em;
   top: 1em;
   z-index: 1000;
@@ -202,7 +201,7 @@ header {
 }
 
 .nav-open .nav-toggle {
-  position: fixed;
+  /* position: fixed; */
 }
 
 .nav-open .hamburger {
