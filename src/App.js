@@ -9,9 +9,6 @@ import { PortfolioSection } from "./components/PortfolioSection";
 import { Footer } from "./components/Footer";
 import { Intro } from "./components/Intro";
 
-import { ThemeProvider } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
-
 function App() {
   const { navOpenClass, darkModeBackground, darkModeText } =
     useContext(Context);

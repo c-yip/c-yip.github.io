@@ -1,4 +1,3 @@
-import logo from "../img/logo.png";
 import React, { useContext } from "react";
 import { Context } from "../Context";
 import Switch from "@mui/material/Switch";

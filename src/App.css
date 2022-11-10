@@ -61,11 +61,6 @@ h3 {
   font-size: var(--fs-h3);
 }
 
-/* a {
-  color: var(--clr-dark);
-  text-decoration: none;
-} */
-
 section {
   padding: 5em 2em;
 }
@@ -201,10 +196,6 @@ header {
 
 .nav-open .nav {
   transform: translateX(0);
-}
-
-.nav-open .nav-toggle {
-  /* position: fixed; */
 }
 
 .nav-open .hamburger {
