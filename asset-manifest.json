@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9754681f.css",
-    "main.js": "/static/js/main.92d4e418.js",
+    "main.js": "/static/js/main.d832709f.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/shopping-cart-short.gif": "/static/media/shopping-cart-short.0bc76dce24047046693f.gif",
     "static/media/cv.gif": "/static/media/cv.11e0c47a5389316de0a9.gif",
@@ -12,7 +12,6 @@
     "static/media/profile-photo.png": "/static/media/profile-photo.d83915eb1b9e86c0f9ec.png",
     "static/media/battleship.gif": "/static/media/battleship.b37c484955687b00586a.gif",
     "static/media/tv-trivia.gif": "/static/media/tv-trivia.be7daa76f0489f2a9293.gif",
-    "static/media/logo.png": "/static/media/logo.4bdd7cc3ca22b9f2ec44.png",
     "static/media/react-icon.svg": "/static/media/react-icon.7a4752ec295dfaf32108d52df3ff5704.svg",
     "static/media/jest-icon.svg": "/static/media/jest-icon.c20537f56e65edcfe06ecad9c42e3eb6.svg",
     "static/media/css-icon.svg": "/static/media/css-icon.19cd0dec3a45c84933cf89413da68d3e.svg",
@@ -22,11 +21,11 @@
     "static/media/bootstrap-icon.svg": "/static/media/bootstrap-icon.99ff40c99633dbe9199a405ec4ff4f65.svg",
     "static/media/html-icon.svg": "/static/media/html-icon.8ae3d4adcd70a1028a6377697d9f33b0.svg",
     "main.9754681f.css.map": "/static/css/main.9754681f.css.map",
-    "main.92d4e418.js.map": "/static/js/main.92d4e418.js.map",
+    "main.d832709f.js.map": "/static/js/main.d832709f.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9754681f.css",
-    "static/js/main.92d4e418.js"
+    "static/js/main.d832709f.js"
   ]
 }
