@@ -18,6 +18,8 @@ export function PortfolioSection() {
       </h2>
       <p className="section__subtitle section__subtitle--projects">
         A selection of my range of work
+        <br />
+        (Click on the gifs for a live demo!)
       </p>
 
       <div className="portfolio">
