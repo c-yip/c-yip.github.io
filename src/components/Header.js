@@ -71,9 +71,7 @@ function Header() {
 
   return (
     <header className={`header ${darkModeBackground}`}>
-      <div className="logo">
-        <img src={logo} alt="" />
-      </div>
+      <h2 className="logo">dev c-yip</h2>
 
       <div className="btn-container">
         <MaterialUISwitch
