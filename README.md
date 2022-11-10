@@ -1,3 +1,5 @@
-# Portfolio Website
+# Portfolio
 
-My portfolio website is a single page application built with React meant to display my projects and skills.
+**[Live Link](https://c-yip.github.io/portfolio/)**
+
+My portfolio is a single page application built with React meant to display my projects and skills.
