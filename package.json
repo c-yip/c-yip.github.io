@@ -1,8 +1,8 @@
 {
-  "name": "portfolio-site",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://c-yip.github.io/portfolio-site",
+  "homepage": "https://cyip.dev/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
