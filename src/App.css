@@ -483,6 +483,10 @@ header {
   .project-description {
     font-size: 1.2em;
   }
+
+  .portfolio__item-container {
+    padding: 2em;
+  }
 }
 
 .project-description {
